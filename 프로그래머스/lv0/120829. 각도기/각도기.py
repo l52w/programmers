@@ -9,3 +9,8 @@ def solution(angle):
     else :
         answer = 4
     return answer
+
+# 다른 사람의 풀이
+# def solution(angle):
+#     answer = (angle // 90) * 2 + (angle % 90 > 0) * 1
+#     return answer
