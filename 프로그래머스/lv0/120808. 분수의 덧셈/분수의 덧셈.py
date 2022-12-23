@@ -16,3 +16,11 @@ def solution(denum1, num1, denum2, num2):
     # 3. gcd 로 나눈 값을 answer에 담기
     answer = [j / x, m / x]
     return answer
+
+# 다른 사람의 풀이
+# import math
+# def solution(denum1, num1, denum2, num2):
+#     denum = denum1 * num2 + denum2 * num1
+#     num = num1 * num2
+#     gcd = math.gcd(denum, num)
+#     return [denum//gcd, num//gcd]
