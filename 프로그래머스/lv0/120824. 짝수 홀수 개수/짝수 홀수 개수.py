@@ -10,3 +10,10 @@ def solution(num_list):
     answer.append(j)
     answer.append(h)
     return answer
+
+# 다른 사람의 풀이
+# def solution(num_list):
+#     answer = [0,0]
+#     for n in num_list:
+#         answer[n%2]+=1
+#     return answer
