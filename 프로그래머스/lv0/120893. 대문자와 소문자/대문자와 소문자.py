@@ -6,3 +6,7 @@ def solution(my_string):
         else :
             answer += my_string[i].upper()
     return answer
+
+# 다른 사람의 풀이
+# def solution(my_string):
+#     return my_string.swapcase()
