@@ -9,3 +9,10 @@ def solution(num, k):
         else :
             answer = -1
     return answer
+
+# 다른 사람의 풀이
+# def solution(num, k):
+#     answer = (str(num).find(str(k))+1)
+#     if answer == 0:
+#         answer = -1
+#     return answer
