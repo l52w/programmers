@@ -8,3 +8,14 @@ def solution(numbers, direction):
         a.append(numbers[0])
         b = numbers[1:]
         return b+a
+    
+    
+# 다른 사람의 풀이
+# from collections import deque
+# def solution(numbers, direction):
+#     numbers = deque(numbers)
+#     if direction == 'right':
+#         numbers.rotate(1)
+#     else:
+#         numbers.rotate(-1)
+#     return list(numbers)
