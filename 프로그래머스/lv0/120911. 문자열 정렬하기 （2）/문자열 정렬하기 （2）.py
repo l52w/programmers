@@ -7,3 +7,7 @@ def solution(my_string):
         a.sort()
     answer = ''.join(map(str, a))
     return answer
+
+# 다른 사람의 풀이
+# def solution(my_string):
+#     return ''.join(sorted(my_string.lower()))
